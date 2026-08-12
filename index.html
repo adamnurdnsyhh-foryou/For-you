@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Seseorang 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+
+  <main class="container">
+    <section id="lockScreen" class="card lock-screen">
+      <div class="flower">🌸</div>
+      <p class="eyebrow">A little secret</p>
+      <h1>Untuk seseorang...</h1>
+      <p class="intro">Kalau kamu menemukan halaman ini, mungkin memang ada sesuatu yang ingin kusampaikan.</p>
+
+      <form id="passwordForm">
+        <label for="password">Masukkan kata sandi</label>
+        <input id="password" type="password" autocomplete="off" placeholder="••••••••" required>
+        <button type="submit">Buka pesan ✦</button>
+        <p id="error" class="error"></p>
+      </form>
+    </section>
+
+    <section id="messageScreen" class="card message-screen hidden">
+      <div class="flower">🌷</div>
+      <p class="eyebrow">You found it.</p>
+      <h1>Untuk kamu.</h1>
+
+      <div class="message">
+        <p>Hai.</p>
+
+        <p>
+          Aku tidak tahu apakah kamu benar-benar akan menemukan halaman ini.
+          Tapi kalau kamu sedang membaca ini, berarti setidaknya kamu sudah sampai sejauh ini.
+        </p>
+
+        <p>
+          Ada beberapa hal tentang diriku yang mungkin lebih mudah kutuliskan
+          daripada kuucapkan secara langsung.
+        </p>
+
+        <p>
+          <strong>Tentang aku:</strong><br>
+          Tulis sesuatu tentang dirimu di sini. Ceritakan hal yang ingin kamu
+          biarkan dia ketahui.
+        </p>
+
+        <p>
+          <strong>Kenapa aku membuat ini:</strong><br>
+          Tulis alasanmu di sini. Tidak harus sempurna. Justru mungkin lebih
+          indah kalau kata-katanya sederhana dan jujur.
+        </p>
+
+        <p>
+          Dan kalau suatu hari nanti kamu bertanya kenapa aku melakukan semua ini,
+          mungkin jawabannya sederhana: aku hanya ingin ada satu tempat kecil
+          di internet yang menyimpan sesuatu yang ingin kusampaikan kepadamu.
+        </p>
+
+        <p class="closing">— dari seseorang yang ingin kamu menemukan halaman ini.</p>
+      </div>
+
+      <button id="backButton" class="secondary">Kembali</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
