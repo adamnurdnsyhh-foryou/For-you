@@ -1,7 +1,7 @@
 // ===============================
 // UBAH KATA SANDI DI SINI
 // ===============================
-const PASSWORD = "bunga";
+const PASSWORD = "kepada seseorang yang mengagumi langit biru";
 
 const passwordForm = document.getElementById("passwordForm");
 const passwordInput = document.getElementById("password");
